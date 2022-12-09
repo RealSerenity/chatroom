@@ -28,7 +28,7 @@ function sendMessageWithValue(name,message){
 function connect()
 {
 
-    let socket=new SockJS("/server1")
+    let socket=new SockJS("/server")
 
     stompClient=Stomp.over(socket)
 
